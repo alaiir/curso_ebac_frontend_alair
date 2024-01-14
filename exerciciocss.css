@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: rgb(122, 119, 119);
+    padding: 16px;
+    color: antiquewhite;
+}
+
+header .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+.conteiner {
+    width: 1366px;
+    margin: 0 auto ;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px; */
+    width: 100%;
+    
+}
+
+.articles article video {
+    /*hight: 180px; */
+    width: 200%;
+    padding: 16px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px ;
+}
+
+section h2 ,
+.articles article {
+    margin-bottom: 16px ;
+}
+
+.articles article h3 {
+    margin:  8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration:none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a :hover {
+    text-decoration:underline;
+}
+
+.articles article p ,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#esportes {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#esportes .articles article a {
+    background-color: #008432;
+}
+
+#Economy {
+    background-color: #f8f59f;
+}
+
+#Economy .articles article a { background-color: #ff9f1a;}
+
+#tecnologia {
+    background-color: rgb(191, 240, 223);
+}
+#tecnologia .articles article a {
+    background-color: rgb(133, 224, 194);
+}
+
+#Fisiculturismo {
+    background-color: rgb(235, 145, 223);
+}
+
+#Fisiculturismo .articles article a {
+    background-color: rgb(236, 105, 230);
+}
+
+.articles article p {
+    font-size: 16px;
+    line-height: 29px;
+}
